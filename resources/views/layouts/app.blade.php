@@ -22,6 +22,8 @@
         @yield('content')
     </main>
 
+    @include('includes.mainav')
+
     @include('includes.footer')
 
 </body>
